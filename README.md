@@ -8,7 +8,7 @@ This file contains the code to get user input of MAC address and connect to API 
 2. Dockerfile
 This file contains the code to build a Docker container and copy the getMacAddressCode.sh to it.
 
-3. README.txt
+3. README.md
 
 II. Technical Pre-requisites
 -----------------------------
@@ -31,7 +31,8 @@ docker run -ti maccontainer
 
 5. Enter the MAC address at prompt
 
-6. Do not post any personally identifiable devices MAC address for testing. Use some random or test MAC addresses. 
+6. Do not post any personally identifiable devices MAC address for testing. 
+   MAC addresses can be used to identify the source location. Hence use some random or test MAC addresses. 
 
 IV. Sample output
 -----------------
